@@ -1,0 +1,389 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config:
+    package_snippet_choices: []
+analyzer:
+  start_time: "2024-01-19T12:24:03.882687703Z"
+  end_time: "2024-01-19T12:24:06.747303214Z"
+  environment:
+    ort_version: "IDE-SNAPSHOT"
+    java_version: "21.0.1"
+    os: "Linux"
+    processors: 16
+    max_memory: 8334082048
+    variables:
+      HOME: "/home/nino"
+      SHELL: "/bin/bash"
+      JAVA_HOME: "/usr/lib/jvm/temurin-17-jdk-amd64/"
+    tool_versions: {}
+  config:
+    allow_dynamic_versions: false
+    enabled_package_managers:
+    - "GradleInspector"
+    skip_excluded: false
+  result:
+    projects:
+    - id: "Gradle:org.example:Module2:1.0-SNAPSHOT"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "compileClasspath"
+      - "runtimeClasspath"
+      - "testCompileClasspath"
+      - "testRuntimeClasspath"
+    packages:
+    - id: "Maven:org.junit.jupiter:junit-jupiter:5.9.1"
+      purl: "pkg:maven/org.junit.jupiter/junit-jupiter@5.9.1"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-jupiter\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.jupiter:junit-jupiter-api:5.9.1"
+      purl: "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-jupiter-api\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.jupiter:junit-jupiter-engine:5.9.1"
+      purl: "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-jupiter-engine\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.jupiter:junit-jupiter-params:5.9.1"
+      purl: "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.1"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-jupiter-params\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.platform:junit-platform-commons:1.9.1"
+      purl: "pkg:maven/org.junit.platform/junit-platform-commons@1.9.1"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-platform-commons\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.junit.platform:junit-platform-engine:1.9.1"
+      purl: "pkg:maven/org.junit.platform/junit-platform-engine@1.9.1"
+      authors:
+      - "Christian Stein"
+      - "Johannes Link"
+      - "Juliette de Rancourt"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "Eclipse Public License v2.0"
+      declared_licenses_processed:
+        spdx_expression: "EPL-2.0"
+        mapped:
+          Eclipse Public License v2.0: "EPL-2.0"
+      description: "Module \"junit-platform-engine\" of JUnit 5."
+      homepage_url: "https://junit.org/junit5/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/junit-team/junit5.git"
+        revision: ""
+        path: ""
+    - id: "Maven:org.opentest4j:opentest4j:1.2.0"
+      purl: "pkg:maven/org.opentest4j/opentest4j@1.2.0"
+      authors:
+      - "Johannes Link"
+      - "Marc Philipp"
+      - "Matthias Merdes"
+      - "Sam Brannen"
+      - "Stefan Bechtold"
+      declared_licenses:
+      - "The Apache License, Version 2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+        mapped:
+          The Apache License, Version 2.0: "Apache-2.0"
+      description: "Open Test Alliance for the JVM"
+      homepage_url: "https://github.com/ota4j-team/opentest4j"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "git://github.com/ota4j-team/opentest4j.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/ota4j-team/opentest4j.git"
+        revision: ""
+        path: ""
+    dependency_graphs:
+      Gradle:
+        packages:
+        - "Gradle:org.example:Module1:1.0-SNAPSHOT"
+        - "Maven:org.junit.jupiter:junit-jupiter-api:5.9.1"
+        - "Maven:org.junit.jupiter:junit-jupiter-engine:5.9.1"
+        - "Maven:org.junit.jupiter:junit-jupiter-params:5.9.1"
+        - "Maven:org.junit.jupiter:junit-jupiter:5.9.1"
+        - "Maven:org.junit.platform:junit-platform-commons:1.9.1"
+        - "Maven:org.junit.platform:junit-platform-engine:1.9.1"
+        - "Maven:org.opentest4j:opentest4j:1.2.0"
+        scopes:
+          org.example:Module2:1.0-SNAPSHOT:compileClasspath:
+          - root: 0
+          org.example:Module2:1.0-SNAPSHOT:runtimeClasspath:
+          - root: 0
+            fragment: 1
+          org.example:Module2:1.0-SNAPSHOT:testCompileClasspath:
+          - root: 0
+          org.example:Module2:1.0-SNAPSHOT:testRuntimeClasspath:
+          - root: 0
+            fragment: 1
+        nodes:
+        - linkage: "PROJECT_DYNAMIC"
+        - pkg: 7
+        - pkg: 5
+        - pkg: 1
+        - pkg: 1
+          fragment: 1
+        - pkg: 3
+        - pkg: 6
+        - pkg: 2
+        - pkg: 4
+        - fragment: 1
+          linkage: "PROJECT_DYNAMIC"
+        edges:
+        - from: 3
+          to: 1
+        - from: 3
+          to: 2
+        - from: 5
+          to: 4
+        - from: 6
+          to: 1
+        - from: 6
+          to: 2
+        - from: 7
+          to: 4
+        - from: 7
+          to: 6
+        - from: 8
+          to: 3
+        - from: 8
+          to: 5
+        - from: 8
+          to: 7
+        - from: 9
+          to: 8
+scanner: null
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultDir"
+    curations: []
+  - provider:
+      id: "DefaultFile"
+    curations: []
